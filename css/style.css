@@ -1,0 +1,125 @@
+body {
+  background-color: #000;
+}
+
+.page {
+  background-color: #355B3E;
+  height: 900px;
+  width: 1600px;
+  margin: 10% auto;
+}
+
+.container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  height: 900px;
+  width: 1296px;
+  margin: auto;
+}
+
+.container2 {
+  height: 656px;
+  width: 550px;
+  padding: 50px 30px 8px 30px;
+  background-color: #fff;
+}
+
+.text {
+  height: 72px;
+  width: 390px;
+  color: #355B3E;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 150%;
+}
+
+.text2 {
+  color: #58745E;
+}
+
+.box {
+  color: #355B3E;
+  margin-bottom: 20px;
+}
+
+.boiteCheck {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 422px;
+  height: 50px;
+  color: #58745E;
+}
+
+.input {
+  width: 422px;
+  height: 56px;
+  border-radius: 10px;
+  color: #58745E;
+  border-color: #029664;
+  text-indent: 10px;
+}
+
+.form-control {
+  background-image: url(/img/oeil.svg);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-position-x: 380px;
+}
+
+input[type=checkbox] {
+  accent-color: #029664;
+}
+
+button {
+  width: 199px;
+  height: 48px;
+  background-color: #fff;
+  border-radius: 10px;
+  color: #029664;
+  border-color: #58745E;
+}
+
+button:focus {
+  background-color: #029664;
+  color: #fff;
+}
+
+a {
+  color: #58745E;
+}
+
+.bouton {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+}
+
+footer {
+  width: 456px;
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  color: #58745E;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer a:focus {
+  color: #029664;
+}
+
+.imgRight {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 714px;
+  width: 746px;
+  background-color: antiquewhite;
+}
+
+/*# sourceMappingURL=style.css.map */
